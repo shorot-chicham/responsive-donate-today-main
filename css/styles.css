@@ -9,7 +9,7 @@
 :root{
     --inter-font: "Inter", sans-serif;
     --poppins-font: "Poppins", sans-serif;
-    --background-color: #707070;
+    --description-color: #707070;
     --title-color: #121212;
     --button-bg-color: #FF5959;
 }
@@ -46,7 +46,7 @@ header{
 
 .banner-desc{
     font-family: var(--poppins-font);
-    color: var(--background-color);
+    color: var(--description-color);
     margin: 1rem 0rem;
 }
 
@@ -67,4 +67,76 @@ header{
 
 .banner-image img{
     width: 100%;
+}
+
+/* Donate today container styles  */
+
+.donate-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.donate-content{
+    text-align: center;
+}
+
+.donate-title{
+    font-family: var(--inter-font);
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.donate-desc{
+    font-family: var(--poppins-font);
+    color: var(--description-color);
+    width: 60%;
+    margin: auto;
+}
+
+.donate-amount{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.amount{
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 5px;
+    color: var(--description-color);
+    padding: 2.5rem 1rem;
+    text-align: center;
+}
+
+.amount:hover{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    box-shadow: 0px 0px 10px 2px #FF5959;
+}
+
+.other-amount{
+    text-align: center;
+    color: #B3B3B3;
+}
+
+.donate-btn{
+    background-color: var(--button-bg-color);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.donate-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
