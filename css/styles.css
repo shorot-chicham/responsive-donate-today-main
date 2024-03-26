@@ -214,3 +214,12 @@ header{
     align-items: center;
     gap: 2rem;
 }
+
+/* Give Someone’s Life container styles  */
+
+.someone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
