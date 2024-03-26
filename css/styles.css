@@ -140,3 +140,68 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+/* Our Donate Plan container styles  */
+
+.donate-plan-container{
+    margin-bottom: 3rem;
+}
+
+.donate-plan-content{
+    text-align: center;
+}
+
+.donate-plan-title{
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.donate-plan-desc{
+    font-family: var(--poppins-font);
+    color: var(--description-color);
+    width: 60%;
+    margin: auto;
+}
+
+.our-plan-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.plan1{
+    background-color: #4F9DA61A;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.plan2{
+    background-color: #FF59591A;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.plan3{
+    background-color: #FFF4D6;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.plan1-title, .plan2-title, .plan3-title{
+    color: var(--title-color);
+    font-family: var(--inter-font);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.plan1-desc, .plan2-desc, .plan3-desc{
+    color: var(--description-color);
+    font-family: var(--poppins-font);
+}
