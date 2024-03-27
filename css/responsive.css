@@ -1,0 +1,42 @@
+/* Responsive for small devices  */
+
+@media screen and (max-width: 640px) {
+    .space{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .banner-container, .our-plan-content, .contribute-container, .someone-container{
+        flex-direction: column;
+    }
+    .donate-amount{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .updates-desc{
+        width: 100%;
+    }
+    .subscribe-container{
+        padding: 2rem;
+    }
+    .subscribe-content{
+        display: flex;
+    }
+}
+
+
+
+
+
+/* Responsive for medium devices  */
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .space{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .banner-container{
+        flex-direction: column;
+        background-position: center bottom;
+    }
+}

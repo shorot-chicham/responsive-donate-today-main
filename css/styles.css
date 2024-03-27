@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.hidden{
+    display: none;
+}
+
 :root{
     --inter-font: "Inter", sans-serif;
     --poppins-font: "Poppins", sans-serif;
@@ -309,9 +313,6 @@ header{
 .subscribe-container{
     margin-bottom: 3rem;
     background-color: #FFF4D6;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
