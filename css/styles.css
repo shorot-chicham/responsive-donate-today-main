@@ -215,6 +215,33 @@ header{
     gap: 2rem;
 }
 
+.contribute-title{
+    font-family: var(--inter-font);
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contribute-desc{
+    color: var(--description-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contribute-btn{
+    background-color: var(--button-bg-color);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.contribute-image img{
+    width: 100%;
+}
+
 /* Give Someone’s Life container styles  */
 
 .someone-container{
@@ -222,4 +249,89 @@ header{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.someone-title{
+    font-family: var(--inter-font);
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.someone-desc{
+    color: var(--description-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.someone-btn{
+    background-color: var(--button-bg-color);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.someone-image img{
+    width: 100%;
+}
+
+/* Get My Updates container styles  */
+
+.my-updates-container{
+    margin-bottom: 3rem;
+}
+
+.updates-content{
+    text-align: center;
+}
+
+.updates-title{
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.updates-desc{
+    color: var(--description-color);
+    width: 70%;
+    margin: auto;
+}
+
+/* subscribe container styles  */
+
+.subscribe-container{
+    margin-bottom: 3rem;
+    background-color: #FFF4D6;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 0.5rem;
+}
+
+.subscribe-content input{
+    border: none;
+    padding: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+.subscribe-btn{
+    background-color: var(--button-bg-color);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    padding: 1rem;
 }
